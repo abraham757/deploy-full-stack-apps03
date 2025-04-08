@@ -7,6 +7,7 @@ export default defineConfig({
   server: {
     port: 3000,
     host: '0.0.0.0',
+    allowedHosts: ['deploy-full-stack-apps03.onrender.com'],
     open: true,
     proxy: {
       '/api': {
